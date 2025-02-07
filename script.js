@@ -135,7 +135,8 @@ deleteModal.addEventListener('click', (e) => {
 
 function editExpense(index) {
     const expense = expenses[index];
-    
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     document.getElementById('title').value = expense.title;
     document.getElementById('description').value = expense.description || '';
     document.getElementById('amount').value = expense.amount;
