@@ -111,7 +111,6 @@ setInterval(updateConversionRates, 30000);
         "USD": 0.012,
         "EUR": 0.011,
         "GBP": 0.0095
-        // ... other currencies
     }
 }
 ```
